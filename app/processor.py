@@ -1,19 +1,8 @@
 import re
 
 
-def process_line(line):
-    m = re.match(r'(\w+)=(\d+)', line)
+def parse_number(s):
+    m = re.match(r'^\d+', s)
     if m:
-        key, value = m.group(1), int(m.group(2))
-        return {key: value}
+        return int(m.group(0))
     return None
-
-
-def process_file(filepath):
-    results = []
-    with open(filepath, 'r') as f:
-        for line in f:
-            res = process_line(line.strip())
-            if res:
-                results.append(res)
-    return results
