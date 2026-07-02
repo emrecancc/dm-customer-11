@@ -1,8 +1,12 @@
-FROM node:20-alpine
+FROM python:3.9-slim
+
 WORKDIR /app
-COPY package*.json ./
-RUN npm ci
+
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
 COPY . .
-RUN npm run build
-EXPOSE 8080
-CMD ["node", "dist/index.js"]
+
+EXPOSE 3000
+
+CMD ["python", "app.py"]
