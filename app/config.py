@@ -1,18 +1,6 @@
 import json
+import os
 
-
-def load_config(path):
-    """Load a JSON configuration file.
-
-    Parameters
-    ----------
-    path : str
-        Path to the configuration file.
-
-    Returns
-    -------
-    dict
-        Parsed configuration data.
-    """
-    with open(path, 'r') as f:
-        return json.load(f)
+path = os.path.join(os.path.dirname(__file__), 'config.json')
+with open(path, 'r') as f:
+    config = json.load(f)
