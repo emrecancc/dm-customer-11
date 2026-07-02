@@ -4,8 +4,5 @@
   "scripts": {
     "build": "node build.js",
     "start": "npm run build && node server.js.bak"
-  },
-  "devDependencies": {
-    "jest": "*"
   }
 }
