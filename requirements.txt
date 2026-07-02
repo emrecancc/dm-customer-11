@@ -1,2 +1,2 @@
-transformers
-pyyaml
+httpx>=0.100.0
+requests>=2.28.0
