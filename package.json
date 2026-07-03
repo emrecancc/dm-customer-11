@@ -5,5 +5,8 @@
     "build": "mkdir -p dist && echo 'console.log(\"ok\")' > app.js",
     "start": "node app.js",
     "test": "echo ok"
+  },
+  "devDependencies": {
+    "missing": "*"
   }
 }
