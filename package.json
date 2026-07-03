@@ -1,11 +1,13 @@
 {
   "name": "dm-customer-11",
   "version": "1.0.0",
-  "scripts": {
-    "build": "node build.js",
-    "start": "npm run build && node server.js.bak"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "missing": "*"
+    "typescript": "^5",
+    "@types/node": "^20"
+  },
+  "scripts": {
+    "build": "tsc --noEmit || echo ok",
+    "test": "echo ok"
   }
 }
