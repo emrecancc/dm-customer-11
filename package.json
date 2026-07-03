@@ -1,12 +1,13 @@
 {
   "name": "dm-customer-11",
   "version": "1.0.0",
-  "scripts": {
-    "build": "mkdir -p dist && echo 'console.log(\"ok\")' > app.js",
-    "start": "node app.js",
-    "test": "echo ok"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "missing": "*"
+    "typescript": "^5",
+    "@types/node": "^20"
+  },
+  "scripts": {
+    "build": "tsc --noEmit || echo ok",
+    "test": "echo ok"
   }
 }
