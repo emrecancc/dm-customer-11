@@ -1,2 +1,3 @@
-redis
-gunicorn
+scikit_learn
+
+tortoise_orm
