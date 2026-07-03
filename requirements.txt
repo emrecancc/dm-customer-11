@@ -1,1 +1,2 @@
-sklearn
+tortoise-orm
+celery
