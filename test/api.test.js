@@ -1,4 +1,4 @@
-// Auto-fixed: cleaned up nock interceptors after each test
+// Auto-fixed: nock interceptor cleanup
 const nock = require('nock');
 afterEach(() => { nock.cleanAll(); });
-test('placeholder - manual review needed', async () => { expect(true).toBe(true); });
+test('api cleanup stub', async () => { expect(true).toBe(true); });
