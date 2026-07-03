@@ -1,2 +1,2 @@
-transformers
-pyyaml
+pandas
+beanie
