@@ -1,2 +1,2 @@
-motor
-sqlalchemy
+python-ml==1.0.0
+sklearn
