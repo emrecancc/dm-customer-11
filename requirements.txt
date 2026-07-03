@@ -1,2 +1,2 @@
-python-ml==1.0.0
-sklearn
+alembic
+fastapi
