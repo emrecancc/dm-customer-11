@@ -2,11 +2,7 @@
   "name": "dm-customer-11",
   "version": "1.0.0",
   "scripts": {
-    "build": "mkdir -p dist && echo 'console.log(\"ok\")' > app.js",
-    "start": "node app.js",
-    "test": "echo ok"
-  },
-  "devDependencies": {
-    "missing": "*"
+    "build": "node build.js",
+    "start": "npm run build && node server.js.bak"
   }
 }
