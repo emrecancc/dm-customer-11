@@ -2,8 +2,8 @@
   "name": "dm-customer-11",
   "version": "1.0.0",
   "scripts": {
-    "build": "mkdir -p  && echo 'console.log(\"ok\")' > /home/runner/work/python-ml/app.jss",
-    "start": "node /home/runner/work/python-ml/app.jss",
+    "build": "mkdir -p dist && echo 'console.log(\"ok\")' > app.js",
+    "start": "node app.js",
     "test": "echo ok"
   }
 }
