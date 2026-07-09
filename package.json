@@ -1,6 +1,8 @@
 {
   "name": "dm-customer-11",
   "version": "1.0.0",
+  "description": "auto-fixed by DevMend",
+  "main": "index.js",
   "scripts": {
     "test": "echo 'ok'",
     "build": "echo 'build ok'",
